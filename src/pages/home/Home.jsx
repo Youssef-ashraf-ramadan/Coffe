@@ -8,7 +8,6 @@ import "aos/dist/aos.css";
 import "./home.css";
 import { useEffect, useState } from "react";
 
-
 const Home = () => {
   return (
     <>
@@ -38,7 +37,7 @@ function Header() {
               platform
             </h1>
             <p>
-              My Qahwati platform helps users discover cafés and locate them in
+              Where to platform helps users discover cafés and locate them in
               their area or around the world. It serves as a comprehensive guide
               to cafes, providing detailed information about each store. Such as
               location, opening hours, contact details, menus and customer

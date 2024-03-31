@@ -83,7 +83,7 @@ section.header .homeBackground {
 /*******************discovery section***********************/
 .discovery {
   margin-top: var(--padding);
-  padding-top: 20px;
+  padding-top: 200px;
   background-color: var(--placeholder);
   padding-bottom: 20px;
 }

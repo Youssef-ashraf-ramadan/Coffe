@@ -91,8 +91,8 @@ const Footer = () => {
                 </div>
                 <div class="footer-text mb-25">
                   <p>
-                    My Qahwati platform helps users discover cafés and locate
-                    them in their area or around the world
+                    Where to platform helps users discover cafés and locate them
+                    in their area or around the world
                   </p>
                 </div>
                 <div class="subscribe-form">
