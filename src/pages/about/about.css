@@ -1,0 +1,70 @@
+.about-us {
+  margin-top: 30px;
+}
+.about-us-text h1 {
+  color: var(--main-color);
+  font-weight: bold;
+  font-size: 40px;
+  width: fit-content;
+  position: relative;
+}
+.about-us-text h1::after {
+  content: "";
+  position: absolute;
+  top: 70px;
+  left: 30px;
+  width: 50%;
+  height: 3px;
+  background-color: var(--main-color);
+}
+.aboutus-Header {
+  overflow: hidden;
+  display: flex;
+}
+.aboutus-Header .about-info .about-data {
+  font-size: 20px;
+  margin: 20px auto;
+}
+.aboutus-Header .about-info {
+  width: 50%;
+}
+.aboutus-Header .about-info svg {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 13px;
+  fill: var(--dark-color);
+}
+.aboutus-Header img {
+  width: 800px;
+  max-width: 100%;
+  animation: up-down 3s ease-in infinite;
+}
+.about-buttons {
+  display: flex;
+  justify-content: center;
+}
+.about-buttons a {
+  text-decoration: none;
+  color: var(--gray-color);
+  border: 2px solid var(--dark-color);
+  border-radius: 10px;
+  padding: 5px 20px;
+  margin-left: 1%;
+  transition: 0.3s;
+}
+.about-buttons a:hover {
+  color: var(--white-color);
+  background-color: var(--dark-color);
+}
+@media (max-width: 1350px) {
+  .aboutus-Header {
+    flex-direction: column;
+  }
+  .aboutus-Header .about-info {
+    width: 100%;
+  }
+  .aboutus-Header img {
+    margin: 0 auto;
+  }
+}

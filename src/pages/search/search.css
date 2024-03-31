@@ -1,0 +1,123 @@
+.searchNow {
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+form .form-group input,
+select,
+button {
+  font-size: 20px;
+}
+form .form-group input {
+  width: 70%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  margin-bottom: 10px;
+  background-color: var(--placeholder);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+form .form-group button {
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  background-color: var(--dark-color);
+  color: var(--white-color);
+  height: 58px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+form .form-group select {
+  width: 23%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: var(--placeholder);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-bottom: 20px;
+}
+@media (max-width: 1200px) {
+  form .form-group select {
+    display: block;
+    margin-left: 0;
+    width: 35%;
+  }
+}
+
+.itemList {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minMax(350px, 1fr));
+  gap: 20px;
+}
+.itemList .search-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  border-radius: 26px;
+  border: 1px solid var(--border-color);
+  background-color: var(--box-color);
+  height: 440px;
+}
+.itemList .search-box .img-box {
+  width: 100%;
+  height: 300px;
+  border-radius: 14px;
+  overflow: hidden;
+}
+.itemList .search-box .img-box:hover img {
+  transform: scale(1.1);
+}
+.itemList .search-box .img-box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: 0.3s;
+}
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+.details span {
+  color: var(--dark-color);
+  margin-top: -5px;
+}
+
+.search-box a {
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 10px;
+  background-color: var(--dark-color);
+  color: var(--white-color);
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+li::marker {
+  content: "";
+}

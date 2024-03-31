@@ -1,0 +1,65 @@
+.contact-us {
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.ContactText h1 {
+  color: var(--main-color);
+  margin-bottom: 10px;
+}
+.contact-us form .form-group {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px auto;
+}
+.contact-us form .form-group input:not(.EmailInput) {
+  width: 49%;
+}
+.contact-us form .form-group .EmailInput {
+  width: 100%;
+}
+.contact-us form .form-group .PlaceInput {
+  width: 100%;
+  height: 470px;
+  border: none;
+  outline: none;
+  background-color: var(--placeholder);
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  resize: none;
+  margin-bottom: 10px;
+}
+.contact-us form button {
+  width: 100%;
+  background-color: var(--main-color);
+  color: var(--white-color);
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.Toastify__toast-container--top-right {
+  top: 120px !important;
+}
+.Toastify__toast-theme--light {
+  background-color: var(--box-color);
+}
+.Toastify__toast {
+  border-radius: 12px;
+}
+.Toastify__close-button--light {
+  opacity: 1;
+}
+.Toastify__close-button > svg {
+  color: #fff;
+}
