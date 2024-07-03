@@ -9,6 +9,7 @@ import Pickup from "./pages/pickup/Pickup";
 import { ToastContainer } from "react-toastify";
 import Footer from "./staticComponent/footer/Footer";
 import PreLoader from "./staticComponent/preloader/PreLoader";
+import NotFound from "./pages/404/404";
 function App() {
   return (
     <BrowserRouter>
@@ -22,6 +23,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/cafes/:id" element={<CafeDetails />} />
         <Route path="/pickup/:id" element={<Pickup />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </BrowserRouter>
